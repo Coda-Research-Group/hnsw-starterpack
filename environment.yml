@@ -1,0 +1,10 @@
+name: hnsw-starterpack
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  # Core dependencies
+  - faiss-cpu
+  - hnswlib
+  - numpy
